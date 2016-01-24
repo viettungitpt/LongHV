@@ -1,0 +1,45 @@
+body { background: url('../images/bg.png');font-size: 12px; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; color: #666; line-height: 21px; }
+input, select, textarea, button { font-size: 12px; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; outline: none; margin: 0; }
+.sendSelectPer{
+    background: none repeat scroll 0 0 #E4E4E4;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: none;
+    color: #666666;
+    font-weight: bold;
+    margin: 25px 5px;
+    padding: 7px 10px;
+    width: auto;
+    cursor: pointer;
+    float: right;
+}
+.permission{margin: auto;width:400px;background: #F1F1F1; margin-top: 15%;border: 8px solid #FB9337;border-radius: 10px;padding: 10px;height: 140px}
+.sendSelectPer:hover{
+    background: none repeat scroll 0 0 #C3C3C3;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: none;
+    color: #FFF;
+    font-weight: bold;
+    margin: 25px 5px;
+    padding: 7px 10px;
+    width: auto;
+    cursor: pointer;
+    float: right;
+}
+h2{text-transform: uppercase; text-align: center; text-shadow: 1px 1px 2px;color: #343434}
+.warning{
+     background: url('../images/warning.png') no-repeat;
+     height: 65px;width: 65px;
+     display: block;
+     float: left;
+}
+
+.infoWarning {
+    color: #B00000;
+    float: left;
+    font-size: 20px;
+    line-height: 28px;
+    width: 333px;
+}
+.fixbox{margin-top: 35px}

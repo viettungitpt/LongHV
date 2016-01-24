@@ -1,0 +1,32 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+$route['404_override'] = '';
+$route['default_controller'] = "manage/index/index"; 
+$route['index'] = "manage/index/index"; 
+$route['index/trang-(:num)'] = "manage/index/index"; 
+$route['trang-(:num)'] = "manage/index/index"; 
+$route['gioi-thieu'] = "manage/index/intro";
+$route['sach-moi-nhat'] = "manage/product/newss"; 
+$route['sach-moi-nhat/trang-(:num)'] = "manage/product/newss"; 
+$route['sach-khuyen-mai'] = "manage/product/promotion"; 
+$route['sach-khuyen-mai/trang-(:num)'] = "manage/product/promotion";  
+$route['sach-dac-biet'] = "manage/product/special"; 
+$route['sach-dac-biet/trang-(:num)'] = "manage/product/special"; 
+$route['tai-khoan'] = "manage/user/index"; 
+$route['dang-nhap'] = "manage/user/login";  
+$route['dang-ki'] = "manage/user/register"; 
+$route['thoat'] = "manage/user/logout";
+$route['thong-tin-tai-khoan'] = "manage/user/profile";
+$route['lien-he'] = "manage/index/contact"; 
+$route['danh-muc/(:num)'] = "manage/product/categories"; 
+$route['danh-muc/(:num)/trang-(:num)'] = "manage/product/categories"; 
+$route['tac-gia/(:num)'] = "manage/product/categoriesauthor"; 
+$route['tac-gia/(:num)/trang-(:num)'] = "manage/product/categoriesauthor"; 
+$route['san-pham/(:num)'] = "manage/product/detail"; 
+$route['ajax-add-to-cart'] = "manage/product/ajaxaddcart"; 
+$route['ajax-update-cart'] = "manage/product/ajaxupdatecart";  
+$route['ajax-del-cart-item'] = "manage/product/ajaxdeletecartitem";  
+$route['gio-hang'] = "manage/product/cart";
+$route['tim-kiem'] =  "manage/product/search";
+
+$route['xoa-don-hang'] =  "manage/product/deleteorder";

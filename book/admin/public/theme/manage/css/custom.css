@@ -1,0 +1,30 @@
+.radio input[type="radio"]{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.remove_slides{
+    opacity: .5;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.remove_slides:hover{
+    opacity: 1;
+}
+
+.box-rpg{
+    display: block;
+    margin:  5px 0;
+}
+
+.imet img{
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
